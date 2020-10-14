@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ishopsmart",
+    "slug": "ishopsmart",
+    "version": "2.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/IShopSmart-logo.png",
+    "splash": {
+      "image": "./assets/IShopSmart-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.euniclab.ishopsmart",
+      "versionCode": 6,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-4627798042390839~7377528692"
+      },
+      "permissions": ["CAMERA_ROLL"]
+    },
+
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.euniclab.ishopsmart",
+      "buildNumber": "2.0.4"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
